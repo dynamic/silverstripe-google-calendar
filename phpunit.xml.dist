@@ -9,7 +9,7 @@
         </exclude>
     </coverage>
     <testsuites>
-        <testsuite name="elemental-promos">
+        <testsuite name="default">
             <directory>tests/</directory>
         </testsuite>
     </testsuites>

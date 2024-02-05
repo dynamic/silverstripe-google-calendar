@@ -1,0 +1,3 @@
+Dynamic\GoogleCalendar\Page\CalendarPage:
+  default:
+    Title: "Google Calendar"
