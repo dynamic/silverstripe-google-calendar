@@ -9,11 +9,11 @@
         "calendar"
     ],
     "require": {
-        "silverstripe/cms": "^4.11",
-        "symbiote/silverstripe-gridfieldextensions": "^3.1"
+        "silverstripe/cms": "^5",
+        "symbiote/silverstripe-gridfieldextensions": "^4"
     },
     "require-dev": {
-        "silverstripe/recipe-testing": "^2.0"
+        "silverstripe/recipe-testing": "^3.0"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,

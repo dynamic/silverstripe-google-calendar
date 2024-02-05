@@ -12,8 +12,8 @@ A calendar module that integrates with Google Calendar, displaying events on the
 
 ## Requirements
 
-* silverstripe/cms ^4.11
-* symbiote/silverstripe-gridfieldextensions ^3.1
+* silverstripe/cms ^5
+* symbiote/silverstripe-gridfieldextensions ^4
 
 ## Installation
 
