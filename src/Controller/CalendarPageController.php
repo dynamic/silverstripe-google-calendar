@@ -29,7 +29,7 @@ class CalendarPageController extends \PageController
         $calendarData = [];
 
         /** @var Calendar $calendar */
-        foreach($this->data()->Calendars() as $calendar){
+        foreach ($this->data()->Calendars() as $calendar) {
             $calendarData[] = [
                 'googleCalendarId' => $calendar->CalendarIDString,
                 'className' => $calendar->getMapClassName(),
