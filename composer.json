@@ -1,19 +1,22 @@
 {
     "name": "dynamic/silverstripe-google-calendar",
     "description": "A Silverstripe module for displaying Google calendars.",
+    "license": "BSD-3-Clause",
     "type": "silverstripe-vendormodule",
     "keywords": [
         "silverstripe",
         "CMS",
         "calendar"
     ],
-    "license": "BSD-3-Clause",
     "require": {
-        "silverstripe/cms": "^4.11"
+        "silverstripe/cms": "^4.11",
+        "symbiote/silverstripe-gridfieldextensions": "^3.1"
     },
     "require-dev": {
         "silverstripe/recipe-testing": "^2.0"
     },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "Dynamic\\GoogleCalendar\\": "src/",
@@ -25,7 +28,5 @@
             "thirdparty/fullcalendar/lib",
             "client/js"
         ]
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
