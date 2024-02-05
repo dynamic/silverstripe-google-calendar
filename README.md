@@ -2,9 +2,30 @@
 
 A calendar module that integrates with Google Calendar, displaying events on the frontend seamlessly.
 
+[![CI](https://github.com/dynamic/silverstripe-google-calendar/actions/workflows/ci.yml/badge.svg)](https://github.com/dynamic/silverstripe-google-calendar/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/dynamic/silverstripe-google-calendar/branch/master/graph/badge.svg)](https://codecov.io/gh/dynamic/silverstripe-google-calendar)
+
+[![Latest Stable Version](https://poser.pugx.org/dynamic/silverstripe-google-calendar/v/stable)](https://packagist.org/packages/dynamic/silverstripe-google-calendar)
+[![Total Downloads](https://poser.pugx.org/dynamic/silverstripe-google-calendar/downloads)](https://packagist.org/packages/dynamic/silverstripe-google-calendar)
+[![Latest Unstable Version](https://poser.pugx.org/dynamic/silverstripe-google-calendar/v/unstable)](https://packagist.org/packages/dynamic/silverstripe-google-calendar)
+[![License](https://poser.pugx.org/dynamic/silverstripe-google-calendar/license)](https://packagist.org/packages/dynamic/silverstripe-google-calendar)
+
+## Requirements
+
+* silverstripe/cms ^4.11
+* symbiote/silverstripe-gridfieldextensions ^3.1
+
+## Installation
+
+`composer require dynamic/silverstripe-google-calendar`
+
+## License
+
+See [License](LICENSE.md)
 
 ## Maintainers
- * Nic Horstmeier <nhrostmeier@dynamicagency.com>
+
+ *  [Dynamic](https://www.dynamicagency.com) (<dev@dynamicagency.com>)
  
 ## Bugtracker
 Bugs are tracked in the issues section of this repository. Before submitting an issue please read over 
