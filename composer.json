@@ -27,6 +27,9 @@
         "expose": [
             "thirdparty/fullcalendar/lib",
             "client/js"
-        ]
+        ],
+        "branch-alias": {
+            "dev-master": "2.x-dev"
+        }
     }
 }
