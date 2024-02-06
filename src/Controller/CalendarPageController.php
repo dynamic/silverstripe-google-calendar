@@ -15,9 +15,8 @@ class CalendarPageController extends \PageController
         parent::init();
 
         if ($this->data()->Calendars()->exists()) {
-            Requirements::javascript('dynamic/silverstripe-google-calendar:thirdparty/fullcalendar/lib/main.min.js');
-            Requirements::javascript('dynamic/silverstripe-google-calendar:client/js/calendar.init.js');
-            Requirements::css('dynamic/silverstripe-google-calendar:thirdparty/fullcalendar/lib/main.min.css');
+            Requirements::css('dynamic/silverstripe-google-calendar:client/dist/styles/bundle.css');
+            Requirements::javascript('dynamic/silverstripe-google-calendar:client/dist/js/bundle.js');
         }
     }
 
