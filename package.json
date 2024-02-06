@@ -7,7 +7,7 @@
     "test": "tests"
   },
   "scripts": {
-    "build": "yarn && yarn lint && rm -rf client/dist/* && NODE_ENV=production webpack --mode production --bail --progress",
+    "build": "yarn && yarn lint && yarn test && rm -rf client/dist/* && NODE_ENV=production webpack --mode production --bail --progress",
     "dev": "NODE_ENV=development webpack --progress",
     "watch": "NODE_ENV=development webpack --watch --progress",
     "css": "WEBPACK_CHILD=css npm run build",
