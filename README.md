@@ -23,6 +23,25 @@ A calendar module that integrates with Google Calendar, displaying events on the
 
 See [License](LICENSE.md)
 
+## Example usage
+
+### Google API Keys
+
+You'll  need to create a [Google API key](https://developers.google.com/maps/documentation/javascript/get-api-key) with the Google Calendar API library enabled.
+
+In `mysite.yml`:
+
+```yaml
+Dynamic\GoogleCalendar\Page\CalendarPage:
+  calendar_api_key: 'your-key-here'
+```
+
+### CMS
+
+In the CMS, create a Google Calendar Page. Navigate to the Calendars tab. Here you can add one or more calendars to display. 
+
+To add a calendar, give it a title, and paste in the Google Calendar ID (from the calendar settings).
+
 ## Maintainers
 
  *  [Dynamic](https://www.dynamicagency.com) (<dev@dynamicagency.com>)
