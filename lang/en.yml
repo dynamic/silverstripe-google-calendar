@@ -1,0 +1,7 @@
+en:
+  Dynamic\GoogleCalendar\Page\CalendarPage:
+    EVENT_CLOSE: Close
+    EVENT_END: 'End:'
+    EVENT_LINK: Event Link
+    EVENT_NO_DESCRIPTION: No description available
+    EVENT_START: 'Start:'

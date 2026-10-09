@@ -6,6 +6,8 @@ import timeGridPlugin from '@fullcalendar/timegrid';
 import listPlugin from '@fullcalendar/list';
 import googleCalendarPlugin from '@fullcalendar/google-calendar';
 import bootstrap5Plugin from '@fullcalendar/bootstrap5';
+import Modal from 'bootstrap/js/dist/modal';
+import { createEventClickHandler } from '../js/eventModal';
 
 document.addEventListener('DOMContentLoaded', () => {
   const calendarEl = document.getElementById('calendar');
@@ -23,6 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
     navLinks: true, // can click day/week names to navigate views
     editable: true,
     dayMaxEvents: true, // allow "more" link when too many events
+    eventClick: createEventClickHandler(Modal),
   });
 
   calendar.render();
