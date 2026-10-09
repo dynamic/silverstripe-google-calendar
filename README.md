@@ -14,6 +14,7 @@ A calendar module that integrates with Google Calendar, displaying events on the
 
 * silverstripe/cms ^5
 * symbiote/silverstripe-gridfieldextensions ^4
+* Bootstrap 5 CSS, loaded by your theme. The event details modal uses Bootstrap's modal styles and renders unstyled without them. The module bundles the Modal JavaScript itself.
 
 ## Installation
 

@@ -10,22 +10,21 @@
 </div>
 
 <!-- Event Modal -->
-<div class="modal fade" id="eventModal" tabindex="-1" aria-labelledby="eventModalLabel" aria-hidden="true">
+<div class="modal fade" id="eventModal" tabindex="-1" aria-labelledby="eventModalLabel" aria-hidden="true"
+    data-no-description="<%t Dynamic\GoogleCalendar\Page\CalendarPage.EVENT_NO_DESCRIPTION 'No description available' %>"
+    data-label-start="<%t Dynamic\GoogleCalendar\Page\CalendarPage.EVENT_START 'Start:' %>"
+    data-label-end="<%t Dynamic\GoogleCalendar\Page\CalendarPage.EVENT_END 'End:' %>">
     <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="eventModalLabel">Event Title</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="eventModalLabel"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="<%t Dynamic\GoogleCalendar\Page\CalendarPage.EVENT_CLOSE 'Close' %>"></button>
+            </div>
+            <div class="modal-body" id="eventModalBody"></div>
+            <div class="modal-footer">
+                <a href="#" id="eventModalLink" target="_blank" rel="noopener noreferrer" class="btn btn-primary" hidden><%t Dynamic\GoogleCalendar\Page\CalendarPage.EVENT_LINK 'Event Link' %></a>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><%t Dynamic\GoogleCalendar\Page\CalendarPage.EVENT_CLOSE 'Close' %></button>
+            </div>
         </div>
-        <div class="modal-body" id="eventModalBody">
-          Event Description
-        </div>
-        <div class="modal-footer">
-          <a href="#" id="eventModalLink" target="_blank" class="btn btn-primary">Event Link</a>
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        </div>
-      </div>
     </div>
-  </div>
-  
-  
+</div>
